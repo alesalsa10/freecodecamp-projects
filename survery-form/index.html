@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Page</title>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <div class = "top">
+    <header class = "header">
+      <h1 id = "title">F.C. Barcelona Survey</h1>
+      <p id = "descriprion">This is a survey about our last season</p>
+    </header>
+  </div>
+  
+  <div class = "form-group">
+    <div class = "form-parts">
+      <form id = "survery-form">
+        <label id = "name-label" for = "name">Name</label>
+        <input type = "text" name = "name" id = "name" placeholder = "Enter your name here" required>
+        
+     </div>
+     <div class = "form-parts">
+        <label id = "email-label" for = "email">Email</label>
+        <input type = "email" name = "email" id = "email" placeholder = "Enter your email here" required>
+      </div>
+      
+      <div class = "form-parts">
+        <label id = "age-label" for "age" >Age</label>
+        <input type = "number" name = "age" id = "age" placeholder = "Enter your age here">
+      </div>
+      
+      <div class = "form-parts">
+        <p>What is your overall rating of our season?</p>
+        <select id = "dropdown" name = "rating" required>
+          <option value = "Select one of the following" disabled selected>Select one of the following</option>
+          <option value = "Excellent">Excellent</option>
+          <option value = "Good"> Good</option>
+          <option value = "Okay">Okay</option>
+          <option value = "Bad">Bad</option>
+        </select>
+      </div>
+      
+      <div class = "form-parts">
+        <p>What needs the most improvement for next season?</p>
+        <input type = "radio" name = "improve" value = "Attack">Attack<br>
+        <input type = "radio" name = "improve" value = "Midfield">Midfield<br>
+        <input type = "radio" name = "improve" value = "Defense">Defense<br>
+      </div>
+      <div class = "form-parts">
+        <p>Which positions need to be reinforced?</p>
+        <input type="checkbox" name="reinforce" value="Goalie">Goalie<br>
+        <input type="checkbox" name="reinforce" value="Right Back"> Right Back<br>
+        <input type="checkbox" name="reinforce" value="Right Center Back"> Right Center Back<br>
+        <input type = "checkbox" name = "reinforce" value = "Left Center Back">Left Center Back<br>
+        <input type = "checkbox" name = "reinforce" value = "Left Back">Left Back<br>
+        <input type = "checkbox" name = "reinforce" value = "Center midfielder">Center Midfield<br>
+        <input type = "checkbox" name = "reinforce" value = "Defensive Midfielder">Defensive Midfielder<br>
+        <input type = "checkbox" name = "reinforce" value = "Left Winger">Left Winger<br>
+        <input type = "checkbox" name = "reinforce" value = "Center Striker">Central Striker<br>
+        <input type = "checkbox" name = "reinforce" value = "Right Winger">Right Winger<br>
+      </div>
+      
+      <div class = "form-parts">
+        <p>Share any additional comments here</p>
+        <textarea placeholder = " Share comments here"></textarea>
+      </div>
+      
+      <div class = "form-parts">
+        <input  class ="submit-button" type = "submit">
+      </div>
+      
+    </form>
+  </div>
+
+</body>
+</html>

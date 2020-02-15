@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    position: fixed;
+}
+
+#header-img{
+   width: 25%;
+   height: 25%; 
+   float: left;
+   margin: 10px;
+}
+
+#list li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+.top{
+    overflow: hidden;
+    padding: 45px;
+    text-align: center;
+    
+}

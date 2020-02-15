@@ -1,0 +1,64 @@
+body {
+    background-color: #ffcccb;
+    margin: 0;
+  }
+  
+  .top {
+    text-align: center;
+  }
+  
+  .form-group {
+    background-color: #bdf1ff;
+    display: block;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 4px;
+  }
+  #name, #email, #age {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #name-label, #email-label, #age-label {
+    padding: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  #dropdown {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .submit-button {
+    display: block;
+    background: green;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+  }
+  textarea {
+    width: 100%;
+    border-radius: 4px;
+    height: 100px;
+    font-size: 15px;
+  }
+  
+  p{
+    margin-bottom: 10px;
+
+  }
