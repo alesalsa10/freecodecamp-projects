@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: wheat;
+}
 .navigation{
     position: fixed;
+    background-color: wheat;
 }
 
 #header-img{
@@ -33,12 +37,17 @@
     background-color: yellow;
     padding: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
+
 .features {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: center;
+    align-items: start;
+    margin: auto;
+    width: 50%;
+   
 }
 #logos{
     width: 50px;
@@ -55,4 +64,57 @@
 iframe{
     display: block;
     margin: auto;
+    padding: 20px;
+}
+.box{
+    width: 250px;
+    height: 300;
+    margin: 10px;
+    border: solid black;
+    border-width: 1px;
+    float: left;
+    
+}
+.box-top{
+    text-align: center;
+    background-color: cyan;
+    padding: 15px;
+}
+.bottom{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.select{
+    background-color: yellow;
+    padding: 10px;
+    cursor: pointer;
+}
+.items{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 10px;
+}
+footer{
+ padding: 15px;   
+ text-align: right;
+ background-color: rgb(236, 228, 228);
+ margin-top: 15px;
+}
+#list2 li{
+    padding-right: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
